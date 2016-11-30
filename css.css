@@ -27,10 +27,61 @@ img, input{
 	left: 0;
 	top: 29px;
 }
-.hd-header .header-logo .search{
-	
+.hd-header .search{
+	width: 303px;
+	height: 30px;
+	position: absolute;
+	border: 1px solid #c3c3c3;
+	left: 183px;
+	top: 31px;
+	padding-left: 7px;
+	color: #e4e4e4;
+}
+.hd-header p{
+	width: 13px;
+	height: 13px;
+	background: url(images/bn_srh_1.png) no-repeat;
+	position: absolute;
+	left: 468px;
+	top: 41px;
 }
 
+.hd-header ul{
+	position: absolute;
+	width: 402px;
+	height: 23px;
+	top: 36px;
+	right: 0;
+	list-style: none;
+}
+.hd-header ul li{
+	float: left;
+	margin-right: 17px;
+}
+.hd-header ul li a{
+	display: block;
+	width: 43px;
+	height: 23px;
+}
+.hd-header ul li a.header-book{
+	background: url(images/anony_nav_logo4.png) 0 0 no-repeat;
+}
+.hd-header ul li a.header-movie{
+	background: url(images/anony_nav_logo4.png) -59px 0 no-repeat;
+}
+.hd-header ul li a.header-music{
+	background: url(images/anony_nav_logo4.png) -120px 0 no-repeat;
+}
+.hd-header ul li a.header-group{
+	background: url(images/anony_nav_logo4.png) -179px 0 no-repeat;
+}
+.hd-header ul li a.header-fm{
+	width: 81px;
+	background: url(images/anony_nav_logo4.png) -238px 0 no-repeat;
+}
+.hd-header ul li a.header-local{
+	background: url(images/anony_nav_logo4.png) -340px 0 no-repeat;
+}
 /* 公共样式 */
 a{
 	color: #3377aa;
