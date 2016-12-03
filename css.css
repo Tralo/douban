@@ -15,6 +15,15 @@ img, input{
 	border: none;
 	border: 1px solid none;
 }
+li{
+	list-style: none;
+}
+.right{
+	width: 266px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
 
 .hd-header{
 	position: relative;
@@ -198,12 +207,13 @@ a:hover{
 	width: 950px;
 	height: 546px;
 	margin: 35px auto 0;
-	border: 1px solid red;
 	position: relative;
 }
 h2.title{
 	font: 15px/150% Arial,Helvetica,sans-serif;
 	color: #007722;
+	width: 230px;
+	height: 24px;
 }
 
 .hd-con .con-left{
@@ -212,22 +222,123 @@ h2.title{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	border: 1px solid blue;
-
 }
+.hd-con .con-left ul{
+	margin-top: 16px;
+}
+.hd-con .con-left ul li{
+	width: 171px;
+	height: 219px;
+	float: left;
+	margin-right: 10px;
+}
+.hd-con .con-left ul li a.con-left-pic:hover{
+	background: #fff;
+}
+.hd-con .con-left ul li span{
+	color: #999999;
+}
+
 .hd-con .con-mid{
 	position: absolute;
 	left: 380px;
 	top: 0;
 	width: 298px;
 	height: 546px;
-	border: 1px solid purple;
+}
+
+.hd-con .con-mid ul{
+	margin-top: 37px;
+}
+.hd-con .con-mid ul li{
+	line-height: 30px;
+}
+.hd-con .con-mid ul h2{
+	color: #999;
+	font-weight: 400;
+	font-size: 12px;
+}
+#hd-con .con-mid ul p{
+	color: #666666;
+}
+
+.hd-con .con-right{
+	min-height: 546px;
+}
+.hd-con .con-right p{
+	color: #999999;
+}
+.hd-con .con-right b{
+	display: block;
+	color: #999;
+	font-weight: 400;
+}
+
+.hd-con .con-right ul li{
+	height: 57px;
+	padding-bottom: 13px;
+	overflow: hidden;
+}
+.hd-con .con-right .last-ad{
+	width: 258px;
+	height: 118px;
+	border: 1px solid #eeeeee;
+	position: absolute;
+	right: 6px;
+	bottom: 45px;
+}
+.hd-con .con-right .last-ad h2{
+	color: #000;
+	font-size: 15px;
+	position: absolute;
+	left: 19px;
+	top: 15px;
+}
+.hd-con .con-right .last-ad a.last-ad-pic{
+	position: absolute;
+	left: 19px;
+	top: 44px;
 
 }
-.hd-con .right{
-	width: 266px;
+.hd-con .con-right .last-ad a.last-ad-ghost{
+	display: block;
+	width: 68px;
+	height: 28px;
+	overflow: hidden;
 	position: absolute;
-	right: 0;
-	top: 0px;
-	border: 1px solid #000;
+	left: 87px;
+	top: 11px;
+
 }
+.hd-con .con-right .last-ad a.last-ad-ghost:hover{
+	background: #fff;
+
+}
+.hd-con .con-right .last-ad a.last-ad-rainbow{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.hd-con .con-right .last-ad a.last-ad-rainbow:hover{
+	background: #fff;
+}
+.hd-con .con-right .last-ad a.last-ad-beghost{
+	position: absolute;
+	left: 128px;
+	top: 46px;
+}
+.hd-con .con-right .last-ad p{
+	color: #999999;
+	position: absolute;
+	left: 128px;
+	top: 68px;
+}
+.hd-con .con-right .last-ad span{
+	color: #999999;
+	position: absolute;
+	left: 128px;
+	top: 80px;
+}
+
+
+
