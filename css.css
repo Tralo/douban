@@ -186,6 +186,48 @@ a:hover{
 	position: absolute;
 	left: 0px;
 	top: 2px;
-	float: left;
 
+}
+.hd-reg .reg-forget{
+	top: 61px;
+	left: 704px;
+	position: absolute;
+}
+
+.hd-con{
+	width: 950px;
+	height: 546px;
+	margin: 35px auto 0;
+	border: 1px solid red;
+	position: relative;
+}
+h2.title{
+	font: 15px/150% Arial,Helvetica,sans-serif;
+	color: #007722;
+}
+
+.hd-con .con-left{
+	width: 373px;
+	height: 546px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 1px solid blue;
+
+}
+.hd-con .con-mid{
+	position: absolute;
+	left: 380px;
+	top: 0;
+	width: 298px;
+	height: 546px;
+	border: 1px solid purple;
+
+}
+.hd-con .right{
+	width: 266px;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	border: 1px solid #000;
 }
