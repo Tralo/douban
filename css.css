@@ -24,6 +24,20 @@ li{
 	right: 0px;
 	top: 0px;
 }
+.hd-ad{
+	width: 950px;
+	height: 90px;
+	margin: 0 auto;
+
+
+}
+.left{
+	width: 121px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 1px solid blue;
+}
 
 .hd-header{
 	position: relative;
@@ -338,6 +352,53 @@ h2.title{
 	position: absolute;
 	left: 128px;
 	top: 80px;
+}
+
+.hd-movie-background{
+	height: 631px;
+	background: #f7f7f7;
+	margin-top: 44px;
+	padding-top: 40px;
+
+}
+.hd-movie-background .hd-movie{
+	width: 950px;
+	height: 631px;
+	border: 1px solid #f00;
+	margin: 0 auto;
+	position: relative;
+}
+.hd-movie .left .left-title{
+	font-size: 24px;
+	color: #2297cc;
+
+}
+.left a:hover{
+	color: #fff;
+
+}
+.left .left-up{
+	margin-top: 5px;
+}
+
+.left .left-up li{
+	font-size: 14px;
+	line-height: 24px;
+}
+.left .left-down{
+	margin-top: 28px;
+	border: 1px solid purple;
+}
+.left .left-down li{
+	width: 55px;
+	height: 93px;
+	border: 1px solid green;
+}
+.left .left-down li a.left-down-pic{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(images/app_icons_50_6.jpg) -350px 0 no-repeat;
 }
 
 
