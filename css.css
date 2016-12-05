@@ -442,4 +442,33 @@ h2.title{
 	overflow: hidden;
 
 }
+.hd-movie-background .hd-movie .movie-right-ul{
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 10px;
+}
+.hd-movie-background .hd-movie .movie-right-ul li{
+	width: 45px;
+	float: left;
+	line-height: 25px;
+}
+.hd-movie-background .hd-movie .movie-right-down{
+	float: left;
+	margin-top: 28px;
+}
+.hd-movie-background .hd-movie .movie-right-down li{
+	border-bottom: 1px solid #eaeaea;
+	height: 35px;
+	line-height: 35px;
+	width: 264px;
+}
+.hd-movie-background .hd-movie .movie-right-down li a{
+	margin-left: 12px;
+}
+
+
+
+
+
+
 
